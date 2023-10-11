@@ -1,0 +1,78 @@
+.qbv {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.heading {
+  border-radius: 20px;
+  height: 300px;
+}
+
+.chiacot {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.shuffle-btn {
+  display: flex;
+  justify-content: center;
+}
+
+
+.margin {
+  margin-top: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.statistic {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat {
+  margin-bottom: 15px;
+}
+
+.stat:hover {
+  font-size: 25px;
+  border-bottom: 2px solid rgb(32, 114, 0);
+}
+
+.player-img {
+  width: 190px;
+  padding-top: 25px;
+  border-radius: 10px;
+}
+
+.player-img:hover {
+  width: 210px;
+}
+
+ul {
+  list-style: none;
+}
+
+#shuffle-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 150px;
+  row-gap: 25px;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 50px;
+  padding: 0;
+}
+.shuffle-btn {
+  margin-left: 48%;
+}
